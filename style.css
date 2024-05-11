@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+body{
+    background-color: #003329;
+    width: 100vw;
+    height: auto;
+}
+
+.scrolltag {
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 100;
+}
+nav {
+    z-index: 1;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%;
+    height: 140px;
+    color:black;
+}
+
+nav img {
+    margin-left: 400px; 
+}
+
+nav ul {
+    font-size: 22px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 66px;
+}
+
+nav ul li:last-child{
+    margin-right: 400px;
+}
+
+a:hover {
+    color: #00B869;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.hero{
+width:100vw;
+height:100vh;
+background-color: white;
+margin-bottom:2300px;
+
+
+}
+
+.hero img{
+    width:100vw;
+    height: 100vh;
+    position:fixed;
+  
+}
+.hill1 img{
+    opacity: 100;
+}
+
+.hill2 img{
+    opacity: 100;
+
+}
+.hill3 img{
+    opacity: 100;
+
+}
+
+.intro{
+    text-align: center;
+    font-size: 18px;
+    color:#003329;
+    background-color: white;
+    height:400px;
+    align-content: center;
+}
+
+.intro h1{
+    font-size: 42px;
+    color:#003329;
+
+}
+
+.intro p{
+    margin-top:37px;
+    font-weight:300;
+
+}
+.solution {
+    margin-top: 90px;
+    display: flex;
+    color: white;
+    width: 100vw;
+    justify-content: space-between; 
+}
+
+.section {
+    width: 300px;
+    height: 700px;
+}
+
+.circle{
+    width:300px;
+    height:300px;
+    background-color: white;
+    color: black;
+    border-radius: 500px;
+    text-align: center;
+    align-content: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.title{
+    margin-top:150px;
+}
+
+h1{
+    font-size: 42px;
+    color:#00FFCD;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    background-color: #003329;
+}
+.line{
+    display:inline-block;
+    text-align: center;
+    width: 100px;
+    height:2px;
+    background-color: #00FFCD;
+}
+
+.content{
+    margin-top:50px;
+}
+.section:first-child{
+    margin-left:400px;
+}
+
+.section:last-child{
+    margin-right:400px;
+}
+
+
+
+
+
+
+
+.building1 img{
+    transform: translateY(+100%);
+
+}
+.building2 img{
+    transform: translateY(+100%);
+
+}
+
