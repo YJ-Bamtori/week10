@@ -37,7 +37,7 @@ nav img {
 }
 
 nav ul {
-    font-size: 22px;
+    font-size: 16px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -115,17 +115,19 @@ margin-bottom:2300px;
     display: flex;
     color: white;
     width: 100vw;
-    justify-content: space-between; 
+    justify-content: center;
+    overflow-x: hidden;
 }
 
 .section {
-    width: 300px;
+    width: 250px;
     height: 700px;
+    margin-right:50px;
 }
 
 .circle{
-    width:300px;
-    height:300px;
+    width:250px;
+    height:250px;
     background-color: white;
     color: black;
     border-radius: 500px;
