@@ -29,10 +29,10 @@ document.addEventListener("scroll", function(){
     if(Math.abs(distance)<200){
         console.log("close")
         introh.style.color = `#00B869`
-        introh.style.fontSize  = `56px`
+        introh.style.fontSize  = `52px`
         introh.style.transition = `all 0.3s ease-out`;
 
-        introp.style.fontSize  = `24px`
+        introp.style.fontSize  = `20px`
         introp.style.color = `#00B869`
         introp.style.transition = `all 0.3s ease-out`;
 
